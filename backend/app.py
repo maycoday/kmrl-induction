@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/plan/simple")
 def simple_plan():
-    df = pd.read_csv("../data/sample/daily_status_2025-09-09.csv")
+    df = pd.read_csv("../data/daily_status_2025-09-09.csv")
     plan = []
     for _, r in df.iterrows():
         if pd.isna(r['telecom_cert']) or r['telecom_cert'] == "":
