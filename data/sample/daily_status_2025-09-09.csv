@@ -1,0 +1,4 @@
+date,train_id,driver_name,rolling_stock_cert,signalling_cert,telecom_cert,job_card_open_count,mileage_today_km,cumulative_since_service_km,cleaning_status,bay_position,branding_hours_accum,notes
+2025-09-09,T_001,Ramesh,2025-09-09,2025-09-09,2025-09-09,0,450,12000,done,BAY-1,12.5,
+2025-09-09,T_002,Sudha,2025-09-09,2025-09-09,,1,430,12300,pending,BAY-2,5.0,missing telecom
+2025-09-09,T_003,Ajay,2025-09-09,2025-09-09,2025-09-09,0,410,11850,done,BAY-3,20.0,
